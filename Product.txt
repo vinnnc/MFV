@@ -1,0 +1,5 @@
+Apple;Pink Lady is a apple.;KG;1.49;1001;Pink Lady;	
+Apple;Red Delicious is a apple.;KG;2.49;1002;Red Delicious;	
+Pear;Packham is a pear.;KG;3.49;1003;Packham;	
+Pineapple;Top On is a pineapple.;KG;4.49;1004;Top On;	
+Apple;Modi is a apple.;KG;5.49;1005;Modi;

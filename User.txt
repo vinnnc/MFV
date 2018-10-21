@@ -1,0 +1,6 @@
+owner1000@gmail.com;Owner1000!;O1000	
+customer1001@gmail.com;Customer1001!;C1001;Caulfield;0;Am I married?;Yes;Am I male?;Yes;	
+customer1002@gmail.com;Customer1002!;C1002;Caulfield;0;Am I married?;Yes;Am I male?;Yes;	
+customer1003@gmail.com;Customer1003!;C1003;Caulfield;0;Am I married?;Yes;Am I male?;Yes;	
+customer1004@gmail.com;Customer1004!;C1004;Caulfield;0;Am I married?;Yes;Am I male?;Yes;	
+customer1005@gmail.com;Customer1005!;C1005;Caulfield;0;Am I married?;Yes;Am I male?;Yes;	
