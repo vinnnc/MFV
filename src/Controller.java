@@ -901,6 +901,7 @@ public class Controller
                         shipmentList.add(new Shipment(temp[0], Integer.valueOf(temp[1]), Integer.valueOf(temp[2]),
                                 Integer.valueOf(temp[3]), Integer.valueOf(temp[4])));
                     }
+                    parser.close();
                 }
             }
             catch (IOException e)

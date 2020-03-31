@@ -126,7 +126,9 @@ public class UserInterface
     {
         System.out.println("(0 to exit)");
         Scanner sc = new Scanner(System.in);
-        return sc.nextLine();
+        String input = sc.nextLine();
+        sc.close();
+        return input;
     }
 
     public boolean askForConfirmation()
@@ -134,7 +136,9 @@ public class UserInterface
         Scanner sc = new Scanner(System.in);
         System.out.println("Please enter \"Confirm\" or \"confirm\" to confirmation (others input will cancel to " +
                 "action): ");
-        return sc.nextLine().trim().toLowerCase().equals("confirm");
+        boolean res = sc.nextLine().trim().toLowerCase().equals("confirm");
+        sc.close();
+        return res;
     }
 
     public void displayQuantity(int quantity)
@@ -212,7 +216,9 @@ public class UserInterface
             try
             {
                 Scanner sc = new Scanner(System.in);
-                return sc.nextInt();
+                int res = sc.nextInt();
+                sc.close();
+                return res;
             }
             catch (Exception e)
             {
