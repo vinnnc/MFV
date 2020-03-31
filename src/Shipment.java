@@ -1,5 +1,4 @@
-public class Shipment
-{
+public class Shipment {
     private String dateOfShipment;
     private int expireDuration;
     private int productID;
@@ -7,8 +6,7 @@ public class Shipment
     private int totalQuantity;
     private int unlockedQuantity;
 
-    public Shipment(String dateOfShipment, int expireDuration, int productID, int shipmentID, int totalQuantity)
-    {
+    public Shipment(String dateOfShipment, int expireDuration, int productID, int shipmentID, int totalQuantity) {
         this.dateOfShipment = dateOfShipment;
         this.expireDuration = expireDuration;
         this.productID = productID;
@@ -17,64 +15,53 @@ public class Shipment
         this.unlockedQuantity = totalQuantity;
     }
 
-    public String getDateOfShipment()
-    {
+    public String getDateOfShipment() {
         return dateOfShipment;
     }
 
-    public void setDateOfShipment(String dateOfShipment)
-    {
+    public void setDateOfShipment(String dateOfShipment) {
         this.dateOfShipment = dateOfShipment;
     }
 
-    public int getExpireDuration()
-    {
+    public int getExpireDuration() {
         return expireDuration;
     }
 
-    public int getUnlockedQuantity()
-    {
+    public int getUnlockedQuantity() {
         return unlockedQuantity;
     }
 
-    public void setUnlockedQuantity(int unlockedQuantity)
-    {
+    public void setUnlockedQuantity(int unlockedQuantity) {
         this.unlockedQuantity = unlockedQuantity;
     }
 
-    public int getProductID()
-    {
+    public int getProductID() {
         return productID;
     }
 
-    public void setProductID(int productID)
-    {
+    public void setProductID(int productID) {
         this.productID = productID;
     }
 
-    public int getShipmentID()
-    {
+    public int getShipmentID() {
         return shipmentID;
     }
 
-    public int getTotalQuantity()
-    {
+    public int getTotalQuantity() {
         return totalQuantity;
     }
 
-    public void setTotalQuantity(int totalQuantity)
-    {
+    public void setTotalQuantity(int totalQuantity) {
         this.totalQuantity = totalQuantity;
     }
 
-    public String displayShipment()
-    {
+    public String displayShipment() {
         return "Shipment ID: " + shipmentID + "; TotalQuantity: " + totalQuantity + "; DateOfShipment: "
                 + dateOfShipment + "Expire duration: " + expireDuration;
     }
-    public String displayShipment1()
-    {
-        return dateOfShipment + ";" + expireDuration + ";" + productID + ";" + shipmentID + ";"
-                + totalQuantity + ";" + unlockedQuantity + ";" ;
+
+    public String displayShipment1() {
+        return dateOfShipment + ";" + expireDuration + ";" + productID + ";" + shipmentID + ";" + totalQuantity + ";"
+                + unlockedQuantity + ";";
     }
 }
